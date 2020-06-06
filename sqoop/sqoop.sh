@@ -1,0 +1,1 @@
+sqoop export --connect jdbc:teradata://teradata_prod.binaryjungle.com/DATABASE=TEACHERS --username tutor -P --verbose --table SYLLABUS -m 1 --input-fields-terminated-by ',' --input-lines-terminated-by '\n' --input-optionally-enclosed-by '"' --export-dir /hdfs/tutor/teachers/syllabus
