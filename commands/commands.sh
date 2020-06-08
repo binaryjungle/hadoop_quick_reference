@@ -3,6 +3,7 @@ hdfs dfs -help count
 hdfs dfs -help get
 hdfs dfs -help ls
 
+hdfs dfsadmin -setSpaceQuota 308G /hdfs/tutor/teachers [with replication]
 hdfs dfs -count -q -h -v /hdfs/tutor/teachers
 hdfs dfs -du -h /hdfs/tutor/teachers
 
